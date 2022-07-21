@@ -10,7 +10,7 @@ To create a class object, you need to pass a connection of the PDO type:
  $db = new QueryBuilder(Connection::make());
 ```
 ## Using 
-___
+
 You can use the following methods  to access the databases:
 ```php
 ->getAll($table);
@@ -21,7 +21,7 @@ You can use the following methods  to access the databases:
 ->delete($table, $id);
 ```
 ## Example
-___
+
 ```php
 $db = new QueryBuilder(Connection::make($config['database']));
 
