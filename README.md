@@ -1,5 +1,5 @@
 # SIMPLE QUERY BUILDER
-___
+
 ## Connection
 Connect the file `QueryBuilder.php` to your project:
 ```php
